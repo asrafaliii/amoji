@@ -1,70 +1,110 @@
-# Getting Started with Create React App
+<div align="center" id="top">
+<img src='/public/android-chrome-512x512.png' width='200'/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a href="https://moodlody.vercel.app/">Demo</a>
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<div align="center">
+  <h1>Ohmoji</h1>
+</div>
 
-### `npm start`
+> A fun and interactive emoji collection website for sharing and copying your favorite emojis.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <a href="https://github.com/DEATHTINYZ/ohmoji/fork" target="_blank">
+    <img src="https://img.shields.io/github/forks/DEATHTINYZ/ohmoji?" alt="Badge showing the total of project forks"/>
+  </a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <a href="https://github.com/DEATHTINYZ/ohmoji/stargazers" target="_blank">
+    <img src="https://img.shields.io/github/stars/DEATHTINYZ/ohmoji?" alt="Badge showing the total of project stars"/>
+  </a>
 
-### `npm test`
+  <a href="https://github.com/DEATHTINYZ/ohmoji/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/commit-activity/m/DEATHTINYZ/ohmoji?" alt="Badge showing average commit frequency per month"/>
+  </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <a href="https://github.com/DEATHTINYZ/ohmoji/commits/main" target="_blank">
+    <img src="https://img.shields.io/github/last-commit/DEATHTINYZ/ohmoji?" alt="Badge showing when the last commit was made"/>
+  </a>
 
-### `npm run build`
+  <img src='https://wakatime.com/badge/user/59564192-3b33-4d25-b612-a7ef7bd0c4d7/project/f27bec47-c75f-42ec-8568-16e6ca42a2ce.svg' />
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<!-- <p align="center">
+  <a href="https://www.producthunt.com/posts/ohmoji?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ohmoji"
+  target="_blank"
+  rel="noreferrer">
+    <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=376855&theme=light"
+    alt="Moodlody - make&#0032;you&#0032;feel&#0032;relaxed&#0046; | Product Hunt"
+    className="w-[250px] h-[54px]"/>
+  </a>
+</p> -->
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Table of Contents
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Screenshots](#screenshots)
+- [Getting started](#getting-started)
+- [Features](#features)
+- [Tech stack](#tech-stack)
+- [Author](#author)
 
-### `npm run eject`
+## Screenshots
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Example screenshot](/public/assets/example-1.png)
+![Example screenshot](/public/assets/example-2.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this project locally, you will need to have [Node.js](https://nodejs.org/en/) and [npm](https://www.npmjs.com/) (or [Yarn](https://yarnpkg.com/)) installed on your machine.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the repository:
 
-## Learn More
+```bash
+git clone https://github.com/DEATHTINYZ/ohmoji.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Navigate to the project directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+cd ohmoji
+```
 
-### Code Splitting
+3. Install the dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm install
+# or
+yarn install
+#or
+pnpm install
+```
 
-### Analyzing the Bundle Size
+4. Run the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-### Making a Progressive Web App
+The app will be available at http://localhost:3000.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Features
 
-### Advanced Configuration
+- Emoji search functionality
+- View and copy emojis
+- Light/Dark theme toggle
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Tech stack
 
-### Deployment
+- [Next.js](https://nextjs.org/): A framework for building server-rendered React apps
+- [TypeScript](https://www.typescriptlang.org/): A typed superset of JavaScript
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Author
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Chayutpong Jamneanpongphan (DEATHTINYZ)](https://www.instagram.com/ur.ddream/)
